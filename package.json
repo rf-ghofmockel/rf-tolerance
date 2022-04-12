@@ -1,0 +1,29 @@
+{
+  "name": "rf-tolerances",
+  "description": "Get tolerances for some standards",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rf-ghofmockel/rf-tolerance.git"
+  },
+  "author": {
+    "name":"Rapidfacture GmbH"
+  },
+  "maintainers": [
+    {
+      "name":"rapidfacture",
+      "email": "gh@rapidfacture.com"
+    }
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "eslint": "^8.12.0",
+    "mocha": "^9.2.2"
+  },
+  "scripts": {
+    "test": "node ./tests/testBase.js"
+  }
+}
